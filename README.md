@@ -1,5 +1,5 @@
 # ssbc-onekey
-磁力链接一键部署（基于SSBC）
+磁力链接一键部署（基于SSBC）</br>
 搭建
 直接使用脚本搭建安装，记住服务器内存最好1g以上的
 wget --no-check-certificate https://raw.githubusercontent.com/banwagong-news/scripts/master/ssbc-setup.sh && bash ssbc-setup.sh
