@@ -3,9 +3,9 @@
 实例：HTTP://DHT.IM </br>
 <h2>搭建</h2>
 直接使用脚本搭建安装，记住服务器内存最好1g以上的
-```bash
+
 wget --no-check-certificate https://raw.githubusercontent.com/magrco/ssbc-onekey/master/ssbc-onekey.sh && bash ssbc-onekey.sh 
-```
+
 之后会让你输入域名，用户名，密码等信息</br>
 等待一段时间就会有数据了，但是注意服务器一定要是国外的服务器，为什么要使用国外的服务器呢大家应该都懂的。</br>
 
