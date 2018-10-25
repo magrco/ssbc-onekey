@@ -1,13 +1,13 @@
 # ssbc-onekey
 磁力链接一键部署（基于SSBC）</br>
 实例：HTTP://DHT.IM </br>
-<h1>搭建</h1>
+<h2>搭建</h2>
 直接使用脚本搭建安装，记住服务器内存最好1g以上的</br>
 wget --no-check-certificate https://raw.githubusercontent.com/magrco/ssbc-onekey/master/ssbc-onekey.sh && bash ssbc-onekey.sh </br>
 之后会让你输入域名，用户名，密码等信息</br>
 等待一段时间就会有数据了，但是注意服务器一定要是国外的服务器，为什么要使用国外的服务器呢大家应该都懂的。</br>
 
-数据库相关</br>
+<h2>数据库相关</h2></br>
 脚本安装的mariadb默认是不允许其他机器登录的，所以如果你要使用本地的数据库连接工具连接这个mariadb的话就要开启mariadb的root远程连接了，还有就是默认是没有密码的，所以最好你设置一个root密码，首先设置root密码，输入</br>
 mysql_secure_installation</br>
 之后按照提示操作就好</br>
@@ -124,9 +124,9 @@ DATABASES = {</br>
 }</br>
 }</br>
 
-关于数据迁移</br>
+<h2>关于数据迁移</h2></br>
 这个其实好办先在新的机器上执行脚本，执行完成之后删除数据库建立新的ssbc数据库记住编码要utf-8的，之后把老的数据库导入新的就可以了</br>
-其他的使用技巧</br>
+<h2>其他的使用技巧</h2></br>
 
 1.必须centos7吗？</br>
 非常建议使用centos7，centos6可能会有意想不到的错误</br>
