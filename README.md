@@ -244,4 +244,4 @@ url(r'^static/(?P<path>.*)$','django.views.static.serve',{'document_root':settin
 现在访问出现404后，显示的是我们制定的404页面，而不是错误页面了。</br>
 
 注意：在修改正在运行的程序是一定要结束运行再修改。</br>
-更多信息请访问：http://wiz.im  http://magrco.com</br>
+更多信息请访问：http://wiz.im  http://www.magrco.com</br>
